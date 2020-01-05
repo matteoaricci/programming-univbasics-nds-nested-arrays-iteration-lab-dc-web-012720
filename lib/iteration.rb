@@ -27,5 +27,11 @@ def total_even_pairs(src)
   count = 0 
   arr = []
   while count < src.length do 
-    if 
+    if src[count][0] % 2 == 0 && src[count][1] % 2 == 0
+    arr.push(src[count][0])
+    arr.push(src[count][1])
+    end 
+    count += 1
+  end
+  arr
 end

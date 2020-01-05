@@ -16,9 +16,10 @@ def find_greater_pair(src)
       arr.push(src[count][1])
       count += 1
     else 
-      arr.push(src[count][1])
+      arr.push(src[count][0])
       count += 1
     end
+  end
   arr
 end
 
